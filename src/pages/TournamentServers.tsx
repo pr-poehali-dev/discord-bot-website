@@ -228,7 +228,7 @@ const TournamentServers = () => {
           {/* Navigation */}
           <div className="flex justify-between">
             <Button
-              onClick={() => navigate('/tournament-bot/accounts')}
+              onClick={() => navigate('/tournament-accounts')}
               variant="outline"
               className="border-magenta-500/30 text-magenta-400 hover:bg-magenta-500/10 font-rajdhani"
             >
@@ -236,7 +236,7 @@ const TournamentServers = () => {
               Назад к аккаунтам
             </Button>
             <Button
-              onClick={() => navigate('/tournament-bot/tasks')}
+              onClick={() => navigate('/tournament-tasks')}
               className="bg-magenta-500 hover:bg-magenta-600 text-white font-rajdhani"
             >
               Далее: Создание задачи

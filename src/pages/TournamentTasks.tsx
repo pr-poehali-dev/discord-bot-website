@@ -416,7 +416,7 @@ const TournamentTasks = () => {
           {/* Navigation */}
           <div className="flex justify-between">
             <Button
-              onClick={() => navigate('/tournament-bot/servers')}
+              onClick={() => navigate('/tournament-servers')}
               variant="outline"
               className="border-magenta-500/30 text-magenta-400 hover:bg-magenta-500/10 font-rajdhani"
             >
